@@ -1,5 +1,5 @@
 import express, { Router } from "express";
-import WalletService from "../services/Wallet.service";
+
 import checkToken from "../middlewares/checkToken";
 import walletController from "../controllers/wallet.controller";
 import { transferSchema } from "../schema/transfer.schema";
