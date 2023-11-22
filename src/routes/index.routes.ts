@@ -6,5 +6,8 @@ const router: Router = express.Router();
 
 router.use("/auth", auth);
 router.use("/wallet", wallet);
+router.get("/", (req, res) => {
+  res.send("hello world");
+});
 
 export default router;
