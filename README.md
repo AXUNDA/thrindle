@@ -2,7 +2,7 @@
 
 This is a simple Node.js and Express.js demo application that allows users to perform signup ,sign in and transfer money to local bank accounts
 
-[Live url](https://charles-emmanuel-lendsqr-be-test.onrender.com "live url")
+[Live url](https://zealous-ox-tam.cyclic.app/)
 
 This demo app uses flutterwave to initiate transfers ,you can view thier docs [here](https://developer.flutterwave.com/ "here")
 
@@ -36,6 +36,8 @@ The app will be accessible at `http://localhost:3000`.
 
 - `GET /wallet/transactions`: Get your transaction history
 - `GET /wallet/transactions/:account_number`: Get transaction history for a particular account number
+
+[Here is a postman documentation of all the endpoints](https://documenter.getpostman.com/view/20589483/2s9YeBdZCT "here is a postman documentation of all the endpoints")
 
 ## Security Considerations
 
