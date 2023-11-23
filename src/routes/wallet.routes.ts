@@ -14,7 +14,7 @@ router.post(
   validate(transferSchema),
   walletController.transfer
 );
-router.get("/transactions", checkToken, walletController.getTransaction);
+router.get("/transactions", checkToken, walletController.getTransactions);
 router.get(
   "/transactions/:account_number",
   checkToken,

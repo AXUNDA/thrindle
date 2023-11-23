@@ -20,7 +20,7 @@ export default {
       next(error);
     }
   },
-  async getTransaction(req: Request, res: Response, next: NextFunction) {
+  async getTransactions(req: Request, res: Response, next: NextFunction) {
     try {
       const data = await WalletService.getTransactionHistory(
         res.locals.user._id
