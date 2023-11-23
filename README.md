@@ -1,4 +1,4 @@
-# Demo credit
+
 
 This is a simple Node.js and Express.js demo application that allows users to perform signup ,sign in and transfer money to local bank accounts
 
